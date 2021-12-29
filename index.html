@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="RealWorldProject/foodProject/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="RealWorldProject/foodProject/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="RealWorldProject/foodProject/favicon/favicon-16x16.png">
+    <link rel="manifest" href="RealWorldProject/foodProject/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="RealWorldProject/foodProject/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="RealWorldProject/foodProject/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar start -->
+    <header class="section">
+        <i class="fas fa-bars"></i>
+        <div>
+            <i class="fas fa-utensils"></i>
+            <span>Foodie</span>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#speciality">Speciality</a>
+            <a href="#popular">Popular</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+        </nav>
+        <i class="fas fa-moon moon"></i>
+    </header>
+    <!-- navbar end -->
+
+    <!-- section home start -->
+    <section class="homeSection section" id="home">
+        <div class="content">
+            <h1>Food Made With Love</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At iure molestias quo officiis quos, in culpa  eius possimus quidem, qui iste perspiciatis, voluptatibus nam perferendis volupt  dignissimos repellat.</p>
+            <button type="button" class="orderBtn">Order Now</button>
+        </div>
+        <div class="homeImg">
+            <img src="./food/home-img.png" alt="">
+        </div>
+    </section>
+    <!-- section home end -->
+
+    <!-- section speciality start -->
+    <section class="specialitySection section" id="speciality">
+        <h1 class="setMargin h1Title">Our <span>Special</span> Dishes</h1>
+        <div class="dishes">
+            <div class="dishBox">
+                <img src="./food/s-1.png" alt="">
+                <h3 class="h3Text">Tasty Burger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta vel dolorum praesentium dignissimos. Temporibus veritatis quo, itaque pariatur dolore.</p>
+            </div>
+            <div class="dishBox">
+                <img src="./food/s-2.png" alt="">
+                <h3 class="h3Text">Tasty Pizza</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta vel dolorum praesentium dignissimos. Temporibus veritatis quo, itaque pariatur dolore.</p>
+            </div>
+            <div class="dishBox">
+                <img src="./food/s-3.png" alt="">
+                <h3 class="h3Text">Cold Ice-Cream</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta vel dolorum praesentium dignissimos. Temporibus veritatis quo, itaque pariatur dolore.</p>
+            </div>
+            <div class="dishBox">
+                <img src="./food/s-4.png" alt="">
+                <h3 class="h3Text">Cold Drinks</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta vel dolorum praesentium dignissimos. Temporibus veritatis quo, itaque pariatur dolore.</p>
+            </div>
+            <div class="dishBox">
+                <img src="./food/s-5.png" alt="">
+                <h3 class="h3Text">Tasty Sweets</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta vel dolorum praesentium dignissimos. Temporibus veritatis quo, itaque pariatur dolore.</p>
+            </div>
+            <div class="dishBox">
+                <img src="./food/s-6.png" alt="">
+                <h3 class="h3Text">Healthy Breakfast</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta vel dolorum praesentium dignissimos. Temporibus veritatis quo, itaque pariatur dolore.</p>
+            </div>
+        </div>
+    </section>
+    <!-- section speciality end -->
+
+    <!-- section popular start -->
+    <section class="popularSection section" id="popular">
+        <h1 class="setMargin h1Title">Most <span>Popular</span> Foods</h1>
+        <div class="popularFood">
+            <div class="foodBox">
+                <div class="price">$5-$20</div>
+                <img src="./food/g-1.jpg" alt="">
+                <h3 class="h3Text">Tasty Burger</h3>
+                <div class="starIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button type="button" class="orderBtn">Order Now</button>
+            </div>
+            <div class="foodBox">
+                <div class="price">$5-$20</div>
+                <img src="./food/g-2.jpg" alt="">
+                <h3 class="h3Text">Tasty Cake</h3>
+                <div class="starIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button type="button" class="orderBtn">Order Now</button>
+            </div>
+            <div class="foodBox">
+                <div class="price">$5-$20</div>
+                <img src="./food/g-3.jpg" alt="">
+                <h3 class="h3Text">Tasty Sweets</h3>
+                <div class="starIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button type="button" class="orderBtn">Order Now</button>
+            </div>
+            <div class="foodBox">
+                <div class="price">$5-$20</div>
+                <img src="./food/g-4.jpg" alt="">
+                <h3 class="h3Text">Tasty Cupcake</h3>
+                <div class="starIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button type="button" class="orderBtn">Order Now</button>
+            </div>
+            <div class="foodBox">
+                <div class="price">$5-$20</div>
+                <img src="./food/g-5.jpg" alt="">
+                <h3 class="h3Text">Cold Drinks</h3>
+                <div class="starIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button type="button" class="orderBtn">Order Now</button>
+            </div>
+            <div class="foodBox">
+                <div class="price">$5-$20</div>
+                <img src="./food/g-6.jpg" alt="">
+                <h3 class="h3Text">Cold Ice-Cream</h3>
+                <div class="starIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button type="button" class="orderBtn">Order Now</button>
+            </div>
+        </div>
+    </section>
+    <!-- section popular end -->
+    
+    <!-- section how to work start -->
+    <section class="workSection section">
+        <h1 class="setMargin h1Title">How It <span>Works</span></h1>
+        <div class="workingBox">
+            <div class="workImg">
+                <img src="./food/step-1.jpg" alt="">
+                <h3 class="h3Text">Choose Your Favorite Food</h3>
+            </div>
+            <div class="workImg">
+                <img src="./food/step-2.jpg" alt="">
+                <h3 class="h3Text">Free And Fast Delivery</h3>
+            </div>
+            <div class="workImg">
+                <img src="./food/step-3.jpg" alt="">
+                <h3 class="h3Text">Easy Payment Methods</h3>
+            </div>
+            <div class="workImg">
+                <img src="./food/step-4.jpg" alt="">
+                <h3 class="h3Text">And Finally, Enjoy Your Food</h3>
+            </div>
+        </div>
+    </section>
+    <!-- section how to work end -->
+
+    <!-- section food gallery start -->
+    <section class="gallerySection section" id="gallery">
+        <h1 class="setMargin h1Title">Our Food <span>Gallery</span></h1>
+        <div class="galleryContainer">
+            <div class="gallery">
+                <img src="./food/g-1.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <img src="./food/g-2.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <img src="./food/g-3.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <img src="./food/g-4.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <img src="../../img/food/g-5.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <img src="./food/g-6.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <img src="./food/g-7.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <img src="./food/g-8.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <img src="./food/g-9.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- section food gallery end -->
+
+    <!-- section review start -->
+    <section class="reviewSection section" id="review">
+        <h1 class="setMargin h1Title">Our Customers <span>Review</span></h1>
+        <div class="reviewContainer">
+            <div class="review">
+                <img src="./food/pic1.png" alt="">
+                <h3 class="h3Text">Monica</h3>
+                <div class="starIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero illo sunt perferendis.Reprehenderit repudiandae sed maiores explicabo eius officia cum tempora. Dicta amet necessitatibus.<p>
+            </div>
+            <div class="review">
+                <img src="./food/pic2.png" alt="">
+                <h3 class="h3Text">Brian</h3>
+                <div class="starIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero illo sunt perferendis.Reprehenderit repudiandae sed maiores explicabo eius officia cum tempora. Dicta amet necessitatibus.<p>
+            </div>
+            <div class="review">
+                <img src="./food/pic3.png" alt="">
+                <h3 class="h3Text">Alisha</h3>
+                <div class="starIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero illo sunt perferendis.Reprehenderit repudiandae sed maiores explicabo eius officia cum tempora. Dicta amet necessitatibus.<p>
+            </div>
+        </div>
+    </section>
+    <!-- section review end -->
+
+    <!-- section order start -->
+    <section class="orderSection section" id="order">
+        <h1 class="setMargin h1Title"><span>Order</span> Now</h1>
+        <div class="orderContainer">
+            <div class="orderImg">
+                <img src="./food/order-img.jpg" alt="">
+            </div>
+            <div class="orderBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="food name">
+                <input type="text" placeholder="address">
+                <button type="button" class="orderBtn">Order Now</button>
+            </div>
+        </div>
+    </section>
+    <!-- section order end -->
+
+    <!-- footer start -->
+    <footer>
+        <div>
+            <a href="https://www.facebook.com"><button type="button" class="orderBtn">Facebook</button></a>
+            <a href="https://www.twitter.com"><button type="button" class="orderBtn">Twitter</button></a>
+            <a href="https://www.instagram.com"><button type="button" class="orderBtn">Instagram</button></a>
+            <a href="https://www.linkedIn.com"><button type="button" class="orderBtn">LinkedIn</button></a>
+            <a href="https://www.youtube.com"><button type="button" class="orderBtn">YouTube</button></a>
+        </div>
+        <div class="footerText">Created By <span>Linn Yee Yee Linn</span> | All Rights Reserved!</div>
+    </footer>
+
+    <!-- scroll-top start -->
+    <a href="#home" class="fas fa-angle-up" id="scrollTop"></a>
+    <!-- scroll-top end -->
+
+    <!-- loader start -->
+    <div class="loaderContainer">
+        <img src="./food/loader.gif" alt="">
+    </div>
+    <!-- loader end -->
+    <!-- footer end -->
+    <script src="../../jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
